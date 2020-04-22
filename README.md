@@ -5,6 +5,7 @@ This is where logic is made.
 ## Goals
 
 This repository is made for the analysis of the DTN documents.
+It also includes the basic software architecture design. 
 
 A not exhaustive list of the documents is following:
 
@@ -22,3 +23,11 @@ A not exhaustive list of the documents is following:
   * Self-Delimiting Numeric Values (Bundle Protocol version 6) [[RFC5050, section 4.1](https://tools.ietf.org/html/rfc5050#section-4.1)]
 
 Analysis will be made as Markdown `.md` documents including C code snippets.
+
+## Structure
+
+Here's a description for directories:
+
+* [arch](arch): the base software architecture:
+  * It describes how every components are plugged together.
+    Including message passing, entry points, etc.
